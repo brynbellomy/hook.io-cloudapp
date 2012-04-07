@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var CloudAppHook = require('../lib/cloudapp').CloudAppHook;
+
+var myhook = new CloudAppHook({
+  name: "the-cloudapp-hook",
+  debug: true
+});
+
+myhook.start();

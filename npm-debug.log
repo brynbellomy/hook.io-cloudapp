@@ -1,0 +1,41 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'node-cloudapp' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /Users/bryn/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose cache add [ 'node-cloudapp', null ]
+silly cache add: name, spec, args [ undefined, 'node-cloudapp', [ 'node-cloudapp', null ] ]
+verbose parsed url { pathname: 'node-cloudapp',
+verbose parsed url   path: 'node-cloudapp',
+verbose parsed url   href: 'node-cloudapp' }
+verbose addNamed [ 'node-cloudapp', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'node-cloudapp', '', false ]
+verbose raw, before any munging node-cloudapp
+verbose url resolving [ 'https://registry.npmjs.org/', './node-cloudapp' ]
+verbose url resolved https://registry.npmjs.org/node-cloudapp
+http GET https://registry.npmjs.org/node-cloudapp
+http 404 https://registry.npmjs.org/node-cloudapp
+silly get cb [ 404,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     date: 'Sat, 07 Apr 2012 02:53:14 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '52',
+silly get cb     'cache-control': 'must-revalidate' } ]
+ERR! 404 'node-cloudapp' is not in the npm registry.
+ERR! 404 You should bug the author to publish it
+ERR! 404 Maybe try 'npm search cloudapp'
+ERR! 404 Note that you can also install from a
+ERR! 404 tarball, folder, or http url, or git url.
+ERR! 
+ERR! System Darwin 11.3.0
+ERR! command "node" "/usr/local/bin/npm" "install" "-g" "node-cloudapp"
+ERR! cwd /Users/bryn/projects/hook.io-cloudapp
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code E404
+ERR! message 404 Not Found: node-cloudapp
+ERR! errno {}
+verbose exit [ 1, true ]
